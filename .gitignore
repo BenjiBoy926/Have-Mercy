@@ -259,3 +259,14 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Ignore enormous libraries that are not modified
+Assets/Benji_926/
+Assets/Anima2D/
+Assets/UnityVS
+Assets/Editor Default Resources/
+Assets/Gizmos/
+Library/
+UnityPackageManager/
+obj/
+Builds/Mono/

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bomb Light
+  m_Controller: {fileID: 9100000, guid: 8049a572632b6f540b3dd64854821a41, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fb8d94b5e852f4e4ebd46a9da3f5ba94, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 50f4e8c93f2794142b7725a9db3f8dfa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca1d8f7c57ecbcd43850d402d3e68b9f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e11d07d4f7c459a46b4bcefc858a40a5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 677853c9eba11cf4aa8f6130e5e10285, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32c50fb387d442e4583a4a8e8e6cd4a8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 02b1204a286991a46a9f4b3dd4f89cfe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 317e33d373993f94aa4d06ced2419248, type: 2}

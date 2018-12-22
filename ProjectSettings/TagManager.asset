@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player Boundary
+  - Scene Fader
+  - SceneFader
+  - ToMainMenu
+  - Tutorial
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Other
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 816884909
+    locked: 0
+  - name: Carrier
+    uniqueID: 3328760441
+    locked: 0
+  - name: Gunner
+    uniqueID: 3157052289
+    locked: 0
+  - name: Cruiser
+    uniqueID: 3090298403
+    locked: 0
+  - name: Bogey
+    uniqueID: 311288155
+    locked: 0
+  - name: Particles
+    uniqueID: 2539148219
+    locked: 0
+  - name: Power Up
+    uniqueID: 2340882287
+    locked: 0
+  - name: Bullets
+    uniqueID: 2189387995
+    locked: 0
+  - name: Green Unit
+    uniqueID: 2465945317
+    locked: 0

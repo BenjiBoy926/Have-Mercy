@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1943724160288366}
+  m_IsPrefabAsset: 1
+--- !u!1 &1876589872269824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4488927505436850}
+  - component: {fileID: 114002699657181364}
+  m_Layer: 0
+  m_Name: Gunner Cruiser Bogey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1891133350236740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4346819877398954}
+  - component: {fileID: 114098050378005246}
+  m_Layer: 0
+  m_Name: Green Unit Slide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1943724160288366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4814216254253152}
+  - component: {fileID: 114209420344937860}
+  m_Layer: 0
+  m_Name: Level 15 Preloads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346819877398954
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891133350236740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4814216254253152}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4488927505436850
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876589872269824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4814216254253152}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4814216254253152
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1943724160288366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4346819877398954}
+  - {fileID: 4488927505436850}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002699657181364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876589872269824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87bd3b1353946c5419cfdf7e9c5f2d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 4, y: 8}
+  checkTime: 2
+  formationData:
+  - prefab: {fileID: 1488086929586686, guid: e536438db41722c4f85b9119516925e7, type: 2}
+    localPos: {x: -2, y: 0}
+  - prefab: {fileID: 1642945997055314, guid: 3562f471eca522746b3d98c3fb1eb76c, type: 2}
+    localPos: {x: -2, y: -1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: -2, y: -3}
+  - prefab: {fileID: 1488086929586686, guid: e536438db41722c4f85b9119516925e7, type: 2}
+    localPos: {x: 2, y: 0}
+  - prefab: {fileID: 1642945997055314, guid: 3562f471eca522746b3d98c3fb1eb76c, type: 2}
+    localPos: {x: 2, y: -1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: 2, y: -3}
+--- !u!114 &114098050378005246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891133350236740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c804fb49aa6030946ac71d162f5861fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 4, y: 10}
+  timeBetweenPoints: 3
+  formationData:
+  - prefab: {fileID: 1454834228297994, guid: 7bfff0f6bca94e64591b612d9e5d70d6, type: 2}
+    localPos: {x: 0, y: 0}
+  points:
+  - localPoint: {x: -2, y: 0}
+    waitTime: 3
+  - localPoint: {x: 2, y: 0}
+    waitTime: 3
+--- !u!114 &114209420344937860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1943724160288366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66bf8629991bf94ea4a8dde91053e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevel: 15
+  loreIndex: 0
+  respawnTime: 10
+  loadTimes:
+  - 5
+  - 7
+  - 3
+  faderTag: Scene Fader

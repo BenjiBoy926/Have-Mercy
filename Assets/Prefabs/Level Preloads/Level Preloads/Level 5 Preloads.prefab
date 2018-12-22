@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1571720417505254}
+  m_IsPrefabAsset: 1
+--- !u!1 &1150969804065854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4256232219280742}
+  - component: {fileID: 114532944713691016}
+  m_Layer: 0
+  m_Name: Green Unit Slider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1414654811063424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4147326000410546}
+  - component: {fileID: 114134134502007312}
+  m_Layer: 0
+  m_Name: Front-Back Bogeys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1571720417505254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4827235122927170}
+  - component: {fileID: 114897491295331130}
+  m_Layer: 0
+  m_Name: Level 5 Preloads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4147326000410546
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414654811063424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4827235122927170}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4256232219280742
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150969804065854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4827235122927170}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4827235122927170
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571720417505254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4147326000410546}
+  - {fileID: 4256232219280742}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114134134502007312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414654811063424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c804fb49aa6030946ac71d162f5861fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 4, y: 8}
+  timeBetweenPoints: 2
+  formationData:
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: 0, y: -1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: 1, y: -1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: -1, y: -1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: 1, y: 1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: -1, y: 1.5}
+  - prefab: {fileID: 1756079345804312, guid: d9c9c72d0a3fc9640b152a53311ecfda, type: 2}
+    localPos: {x: 0, y: 1.5}
+  points:
+  - localPoint: {x: -2, y: 0}
+    waitTime: 0
+  - localPoint: {x: 0, y: 0}
+    waitTime: 0
+  - localPoint: {x: 2, y: 0}
+    waitTime: 0
+--- !u!114 &114532944713691016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150969804065854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c804fb49aa6030946ac71d162f5861fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 4, y: 8}
+  timeBetweenPoints: 2
+  formationData:
+  - prefab: {fileID: 1454834228297994, guid: 7bfff0f6bca94e64591b612d9e5d70d6, type: 2}
+    localPos: {x: 0, y: 0}
+  points:
+  - localPoint: {x: 2, y: 0}
+    waitTime: 0
+  - localPoint: {x: 0, y: 0}
+    waitTime: 0
+  - localPoint: {x: -2, y: 0}
+    waitTime: 0
+--- !u!114 &114897491295331130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571720417505254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66bf8629991bf94ea4a8dde91053e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevel: 5
+  loreIndex: 0
+  respawnTime: 7
+  loadTimes:
+  - 5
+  - 7
+  - 3
+  faderTag: Scene Fader
